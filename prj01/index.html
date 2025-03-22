@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 01 TypeScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <h1>Project 01 Student Data base</h1>
+    <div>
+        <form>
+            <label for="name">Add or Update Students</label><br><br>
+
+            <input type="text" id="name" name="name" placeholder="Enter Student Name">
+            <button type="button" id="add">Add</button>
+            <button type="button" id="delete">Delete</button>
+            <button type="button" id="update">Update</button>
+            
+            </label>
+        </form>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                </tr>
+            </thead>
+            <tbody id="students">
+                <tr>
+                    <td>Student 1</td>
+                    <td>Student 2</td>
+                </tr> 
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
