@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Project 01 Student Data base</h1>
+    <h1 id="h1">Project 01 Student Data base</h1>
     <div>
         <form>
-            <label for="name">Student Database</label><br><br>
-
+            <label for="name" class="form-label">Student Database</label>
             <input type="text" id="name" name="name" placeholder="Enter Student Name">
             <input type="text" id="major" name="major" placeholder="Enter Student Major">
             <button type="submit" id="add">submit</button>
-            
         </form>
     </div>
     <br><hr>
@@ -23,7 +21,7 @@
         <table id="table1">
             <thead>
                 <tr>
-                    <th scope="col" colspan="3">Student database</th>
+                    <th scope="col" colspan="3" id="tblhd1">Student database</th>
                 </tr>
                 <tr>
                     <th scope="col">Student Name</th>
