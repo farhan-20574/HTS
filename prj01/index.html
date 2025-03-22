@@ -6,33 +6,40 @@
     <title>Project 01 TypeScript</title>
     <link rel="stylesheet" href="style.css">
 </head>
-</head>
 <body>
     <h1>Project 01 Student Data base</h1>
     <div>
         <form>
-            <label for="name">Add or Update Students</label><br><br>
+            <label for="name">Student Database</label><br><br>
 
             <input type="text" id="name" name="name" placeholder="Enter Student Name">
-            <button type="button" id="add">Add</button>
-            <button type="button" id="delete">Delete</button>
-            <button type="button" id="update">Update</button>
+            <input type="text" id="major" name="major" placeholder="Enter Student Major">
+            <button type="submit" id="add">submit</button>
             
-            </label>
         </form>
     </div>
+    <br><hr>
     <div>
-        <table>
+        <table id="table1">
             <thead>
                 <tr>
-                    <th>Student Name</th>
+                    <th scope="col" colspan="3">Student database</th>
+                </tr>
+                <tr>
+                    <th scope="col">Student Name</th>
+                    <th scope="col">Student Major</th>
+                    <th scope="col">Actions</th>
                 </tr>
             </thead>
-            <tbody id="students">
+            <tbody>
                 <tr>
-                    <td>Student 1</td>
-                    <td>Student 2</td>
-                </tr> 
+                    <td>John Doe</td>
+                    <td>Computer Science</td>
+                    <td>
+                        <button type="button" id="update">update</button>
+                        <button type="button" id="delete">delete</button>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
