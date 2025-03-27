@@ -17,7 +17,7 @@
     "url": "https://github.com/farhan-20574/typescript/issues"
   },
   "homepage": "https://github.com/farhan-20574/typescript#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.8.2"
   }
 }
